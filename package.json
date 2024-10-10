@@ -1,0 +1,20 @@
+{
+  "name": "log-analyser",
+  "version": "1.0.0",
+  "description": "A tool to analyse HTTP request logs",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Wayne Liao",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.0.0"
+  }
+}
